@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Po</title>
+        <link rel="stylesheet" href="Style.css">
+        <script src="https://kit.fontawesome.com/c4254e24a8.js"></script>
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="logo.png "class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact-me">Contact</a></li>
+                        <li><a href="#"></a></li>
+                        <i class="fa fas fa-times" onclick="closemenu()"></i>
+
+                    </ul>
+                    <i class="fa fa-sharp fa-solid fa-bars"onclick="openmenu()"></i>
+
+                </nav>
+                <div class="header-text">
+                    <p>Junior Software Engineer</p>
+                    <h1>Hii, I am <span>Ram Dnyandeo Patil</span></h1>  <!--u <br>can use line break to new line-->
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="user.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p class="top-space">My name is Ram, and I'm an undergraduate student in ECE Engineering from Pune.</p>
+                        <p class="top-space">I'm passionate about learning new things and try out new technologies.</p>
+                        <p class="top-space">Currently, learning Python and Web Development Stack-[MERN].</p>
+                        <p class="top-space">I love reading Journals on Computing technology, Math and a bit of Philosophy. </p>
+                        <p class="top-space">I'm always up for interesting conversations, regardless of the topic.</p>
+                        <p class="top-space"></p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Data Structure, Algorithms, System Design.</span><br>Fundamentals of Programming.</li>
+                                <li><span>HTML5, CSS3, JavaScript.</span><br>web app developmen.t</li>
+                                <li><span>Java, Python, C++, C.</span><br>Known Programming languages.</li>
+                                <li><span>SQL, MySQL, PLSQL.</span><br>Known Database languages.</li>
+                                <li><span>Windows, Linux.</span><br>Known Operating Systems.</li>
+                                <li><span>Cloud Computing, Deep Learning, IoT.</span><br>Understanding of trending technology.</li>
+
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>UI/UX Winter Internship [2021]</span><br>Web app development using WiX.</li>
+                               <!-- <li><span></span><br></li>
+                                <li><span></span><br></li>
+                                <li><span></span><br></li>-->
+
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>BE Electronics and Telecommunication</span><br>Pune [2019 - ]</li>
+                                <li><span>HSC</span><br>Aurangabad sub divison</li>
+                                <li><span>SSC</span><br>Amravati sub divison</li>
+                                <!--<li><span></span><br></li>-->
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-----my serivices---->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="service-list">
+                    <div class="box">
+                        <h2 >UI/UX Design</h2>
+                        <p>Provides solutions regarding Customer analysis, Content development, Prototyping and wireframing.</p>
+                        <br><br><br>
+                        <a href="#"class="learn-more">learn more</a>
+                    </div>
+                    <div class="box">
+                        <h2 >Web Development</h2>
+                        <p>Provide solutions regarding development and deployment of web services using MERN stack.</p>
+                        <br><br><br><br>
+                        <a href="#" class="learn-more">learn more</a>
+                    </div>
+                    <div class="box">
+                        <h2 >Java Services</h2>
+                        <p>Provide solutions regarding development and maintenance of JAVA based microservices.</p>
+                        <br><br><br><br>
+                        <a href="#" class="learn-more">learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="work-1.png">
+                        <div class="layer">
+                            <h3>WheeChat</h3>
+                            <p>Texting application using Java and Socket Programming. Provides end to end connection between two users.</p>
+                            <p></p>
+                            <p></p>
+                            <a href="https://github.com/rdPat/WheeChat" style="font-size: 19px;color:antiquewhite;text-decoration: none;margin-top:205px;">link of work</a>
+                            <!--here add icon code by font awesome website-->
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="work-2.png">
+                        <div class="layer">
+                            <h3>Bank Management System</h3>
+                            <p>Management system provides solutions like creation of account,Bi-directional transaction services,maintaining data and analyzing.</p>
+
+                            <a href="www.netflix.com" style="font-size: 19px;color:antiquewhite;text-decoration: none;margin-top:205px;">link of work</a>
+                            <!--here add icon code by font awesome website-->
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="work-3.png">
+                        <div class="layer">
+                            <h3>Online Shopping</h3>
+                            <p></p>
+                            <a href="www.netflix.com" style="font-size: 19px;color:antiquewhite;text-decoration: none;margin-top:205px;">link of work</a>
+                            <!--here add icon code by font awesome website-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="seem">
+            <a href="www.netflix.com"><button class="button" style="vertical-align:middle"><span>See More</span></button></a>
+        </div>
+        
+        <div id="contact-me">
+            <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    
+                    <h1 class="sub-title">Contact me</h1>
+                    <div class="formobile">
+                    <p><i style="margin-right: 25px;margin-left: 20px;font-size: 25px;"class="fa fa-solid fa-paper-plane"></i> contact@gmail.com</p>
+                    <br>
+                    <p><i style="margin-right: 32px;margin-left: 20px;font-size: 25px;"class="fa fa-solid fa-phone"></i>0123456789</p>
+                    <br>
+                    <div class="social-icons">
+                        <a href=""><i class="fa fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa fa-brands fa-linkedin"></i></a>
+                        
+                    </div>
+                    </div>
+                    <div class="download-button">
+                        <a href="my-cv.pdf"><button class="btn">Download CV</button></a>
+                    </div>
+                    
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name_of_visitor" placeholder="Your Name" required>
+                        <input type="email" name="Email_of_visitor" placeholder="Your Email" required>
+                        <textarea name="Message_from_visitor" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit"  class="btn btn2">Submit</button> 
+                         
+                        
+                    </form>
+                    <span id="msg"></span>
+                    
+                    <!--<script>
+                        
+                        var form=document.getElementById('sheetdb-form');
+                        form.addEventListener("submit",e=>{
+                            e.preventDefault();
+                            fetch(form.action,{
+                                method:"POST",
+                                body:new FormData(document.getElementById("sheetdb-form")),
+                                
+                            }).then(
+                                response => response.json()
+                            )
+                            .then(
+                                response =>alert("your response is stored successfully\nthanks for contacting")
+                            )
+                            .then((html)=>{
+                                window.open('','_blank');
+                            }); 
+                        });
+                    </script>-->
+                </div>
+            </div>
+            <div class="copyright">
+                <p>@copyright policy 2023</p>
+            </div>
+            </div>
+        </div>
+
+
+
+
+        <script>
+            var tablinks=document.getElementsByClassName("tab-links");
+            var tabcontents=document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        
+        </script>
+        <script>
+            var sidemenu=document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right="0";
+            }
+            function closemenu(){
+                sidemenu.style.right="-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxnYFBVElKGS4Vv9CjPCprQI_Sije3nOTijxV_bYspuKzyESeAwYWeQUBwKkNjefZkE/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg=document.getElementById("msg")
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+              
+                .then(response =>{
+                    msg.innerHTML="Submited Successfully"
+                    alert("Message Sent Successfully...")
+                    setTimeout(function(){
+                        
+                        msg.innerHTML=""
+                    },5000)
+                    form.reset()
+                } )
+                
+                .catch( msg.innerHTML="Contacting...")
+            })
+          </script>
+    </body>
+</html>
